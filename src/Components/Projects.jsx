@@ -25,7 +25,7 @@ function Projects() {
     <>
       <div className="flex flex-col items-center  justify-center lg:gap-8">
         <div className="mb-20 lg:flex md:my-[15%] lg:mb-36 lg:my-[5%]">
-          <div className="flex items-center justify-center lg:w-[100%] lg:mr-16 mb-10 gap-7 md:gap-0  mx-auto p-2">
+          <div className="flex items-center justify-center lg:w-[100%] lg:mr-16 mb-10 gap-7 md:gap-0 lg:gap-5 mx-auto p-2">
             {" "}
             {/*Square card   lg:flex img */}
             <motion.img
@@ -35,12 +35,12 @@ function Projects() {
               viewport={{ once: true }}
               src={fash2}
               alt="middle"
-              className="w-[45%] md:w-[37%] h-80 relative -top-2 left-40 rounded-xl"
+              className="w-[45%] md:w-[45%] h-80 relative -top-2 left-40 rounded-xl"
             />
             <motion.img
               src={fash1}
               alt="right"
-              className="w-[50%] md:w-[42%] h-80  z-50 rounded-xl"
+              className="w-[50%] md:w-[50%] h-80  z-50 rounded-xl"
             />
             <motion.img
               style={{ transformOrigin: "bottom" }}
@@ -49,7 +49,7 @@ function Projects() {
               viewport={{ once: true }}
               src={fash3}
               alt="left"
-              className="w-[45%] md:w-[37%] h-80 relative -top-2 right-40 rounded-xl"
+              className="w-[45%] md:w-[45%] h-80 relative -top-2 right-40 rounded-xl"
             />
           </div>
 
