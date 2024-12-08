@@ -5,12 +5,12 @@ function Why_me() {
     <div>
       <div className="flex items-center justify-center gap-4 md:gap-[10%] text-2xl md:text-5xl mb-16 shadow-gray-500 shadow-lg rounded-xl p-5 mx-8">
         <div className="text-center">
-          <h2 className="mb-10">Hours worked</h2>
+          <h2 className="mb-8">Hours worked</h2>
           <span className="mb-10">100+</span>
         </div>
         <hr className="" />
         <div className="text-center">
-          <h2 className="mb-10">Clients closed</h2>
+          <h2 className="mb-8">Clients closed</h2>
           <span className="mb-10">2+</span>
         </div>
       </div>
