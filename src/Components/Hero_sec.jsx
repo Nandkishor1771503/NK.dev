@@ -55,7 +55,7 @@ function Hero_sec() {
       </div>
 
       <motion.div
-        className=" w-[100%] h-24 mt-16 ml-5 text-2xl md:hidden"
+        className=" w-[100%] h-24 mt-16 ml-4 text-xl md:hidden"
         initial={{ x: -100, opacity: 0.3 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
