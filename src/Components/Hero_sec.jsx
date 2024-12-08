@@ -11,7 +11,7 @@ function Hero_sec() {
     hidden: { opacity: 0 },
     show: {
       opacity: 0.7,
-      transition: { staggerChildren: 0.2, duration: 0.357 },
+      transition: { staggerChildren: 0.2, duration: 0.357,delay:0.5 },
     },
   };
 
