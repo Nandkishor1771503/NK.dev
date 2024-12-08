@@ -13,7 +13,7 @@ function Navbar() {
         <div className="flex justify-between gap-10 lg:gap-[19%] md:gap-[8%] sticky top-0 ">
           {" "}
           <h1 className="m-4 md:ml-3 font-sans">NK.dev</h1>
-          <nav className="md:flex hidden items-center justify-center lg:gap-16 md:gap-5 lg:text-3xl md:text-xl lg:px-16 md:px-10  rounded-b-full  bg-white/5 backdrop-blur-md backdrop-opacity-60 list-none ">
+          <nav className="md:flex hidden items-center justify-center lg:gap-12 md:gap-5 lg:text-2xl md:text-xl lg:px-12 md:px-10  rounded-b-full  bg-white/5 backdrop-blur-md backdrop-opacity-60 list-none ">
             <motion.li
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}b 
