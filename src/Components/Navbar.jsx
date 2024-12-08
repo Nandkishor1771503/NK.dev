@@ -16,7 +16,7 @@ function Navbar() {
           <nav className="md:flex hidden items-center justify-center lg:gap-16 md:gap-5 lg:text-3xl md:text-xl lg:px-16 md:px-10  rounded-b-full  bg-white/5 backdrop-blur-md backdrop-opacity-60 list-none ">
             <motion.li
               whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.8 }}
+              whileTap={{ scale: 0.8 }}b 
               transition={{ duration: 0.3, damping: 2 }}
               className="cursor-pointer active:underline"
             >
