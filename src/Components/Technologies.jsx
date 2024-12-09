@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 function Technologies() {
   const parentVariant = {
     hidden: { opacity: 0 },
-    show: { opacity: 1, transition: { staggerChildren: 0.2, duration: 0.5 ,delay:0.5 } },
+    show: { opacity: 1, transition: { staggerChildren: 0.2, duration: 1 ,delay:0.2 } },
   };
 
   const childrenVariant = {

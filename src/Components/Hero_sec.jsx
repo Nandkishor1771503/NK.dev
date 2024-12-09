@@ -65,7 +65,7 @@ function Hero_sec() {
       </motion.div>
 
       <motion.div
-        className="md:flex hidden  justify-center flex-shrink lg:w-full md:gap-3 text-center mt-28 md:mr-6 text-2xl lg:text-5xl md:text-3xl  
+        className="md:flex hidden  justify-center flex-shrink lg:w-full md:gap-3 text-center mt-28 md:mr-6 text-2xl lg:text-3xl md:text-2xl  
         md:opacity-30 "
         variants={parentVariant}
         initial="hidden"

@@ -12,7 +12,7 @@ function About_me() {
     hidden: { opacity: 0 },
     show: {
       opacity: 0.7,
-      transition: { staggerChildren: 0.1, delay: 0.5 },
+      transition: { staggerChildren: 0.2,  delay: 0.1 },
     },
   };
 
@@ -23,12 +23,12 @@ function About_me() {
 
   return (
     <>
-      <h1 className="mb-4 ml-4 text-gray-400 md:mt-16 mt-3 ">About me</h1>
+      <h1 className="mb-4 text-gray-400 md:mt-16 mt-3 md:ml-10 ml-5 md:text-4xl text-3xl">About me</h1>
       <motion.div
         className="lg:flex  bg-white/5 w-[95%] mx-auto my-14 backdrop-blur-md backdrop-opacity-60 p-10 rounded-3xl shadow-xl- z-50 "
         initial={{ y: 50, opacity: 0.1 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
         <img
