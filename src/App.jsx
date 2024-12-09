@@ -23,12 +23,20 @@ function App() {
         {" "}
         {/*to-slate-700 */}
         <Navbar />
-        <Hero_sec />
-        <About_me />
-        <Projects />
+        <section id="home">
+          <Hero_sec />
+        </section>
+        <section id="about">
+          <About_me />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
         <Technologies />
         <Why_me />
-        <Footer />
+        <section id="contact">
+          <Footer />
+        </section>
       </div>
     </>
   );

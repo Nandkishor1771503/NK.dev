@@ -2,11 +2,13 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
+
 import Logo from "../images/Logo12.png";
 
 function Footer() {
   return (
-    <footer className=" bg-white/5 backdrop-blur-md backdrop-opacity-60 mt-14 lg:mt-20 py-6 md:h-80 lg:h-80">
+    
+      <footer className=" bg-white/5 backdrop-blur-md backdrop-opacity-60 mt-14 lg:mt-20 py-6 md:h-80 lg:h-80" >
       <div className="flex flex-col md:flex-row gap-12 p-2 items-center justify-center">
         {/* <h1 className="md:text-8xl ">NK.dev</h1> */}
         <img
@@ -21,10 +23,10 @@ function Footer() {
           <hr className="my-4 md:my-6" />
           {/*One click make your brand higher & colourful*/}
           <div className="flex text-5xl items-center justify-center md:text-6xl gap-10">
-            <a href="" alt="instagram">
+            <a href="https://www.instagram.com/nktechsolutions24/" alt="instagram" target="__blank__">
               <FaInstagram />
             </a>
-            <a href="" alt="twitter">
+            <a href="https://x.com/Nk_Dev07" alt="twitter" target="__blank__">
               <FaXTwitter />
             </a>
             <a href="" alt="linkedin">
@@ -34,6 +36,12 @@ function Footer() {
         </div>
       </div>
     </footer>
+    
+
+
+
+
+    
   );
 }
 

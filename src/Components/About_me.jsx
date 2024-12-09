@@ -23,6 +23,7 @@ function About_me() {
 
   return (
     <>
+      
       <h1 className="mb-4 text-gray-400 md:mt-16 mt-3 md:ml-10 ml-5 md:text-4xl text-3xl">About me</h1>
       <motion.div
         className="lg:flex  bg-white/5 w-[95%] mx-auto my-14 backdrop-blur-md backdrop-opacity-60 p-10 rounded-3xl shadow-xl- z-50 "
@@ -66,6 +67,8 @@ function About_me() {
           </motion.p>
         </div>
       </motion.div>
+
+      
     </>
   );
 }

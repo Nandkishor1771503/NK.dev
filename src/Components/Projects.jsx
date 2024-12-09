@@ -23,7 +23,7 @@ function Projects() {
 
   return (
     <>
-      <div className="flex flex-col items-center  justify-center lg:gap-8">
+      <div className="flex flex-col items-center  justify-center lg:gap-8" >
         <div className="mb-20 lg:flex md:my-[15%] lg:mb-36 lg:my-[5%] lg:mx-10">
           <div className="flex items-center justify-center lg:w-[100%] lg:mr-16 mb-10 gap-7 md:gap-0 lg:gap-5 mx-auto p-2">
             {" "}

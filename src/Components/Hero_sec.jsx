@@ -48,6 +48,7 @@ function Hero_sec() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 5, delay: 0.8 }}
+           
         >
           {" "}
           design & development
@@ -65,8 +66,9 @@ function Hero_sec() {
       </motion.div>
 
       <motion.div
-        className="md:flex hidden  justify-center flex-shrink lg:w-full md:gap-3 text-center mt-28 md:mr-6 text-2xl lg:text-4xl md:text-3xl  
-        md:opacity-30 "
+        className="md:flex hidden  justify-center flex-shrink lg:w-full md:gap-3 text-center mt-32 md:mr-6 text-2xl lg:text-3xl md:text-3xl  
+        md:opacity-30 text-gray-500"
+        
         variants={parentVariant}
         initial="hidden"
         whileInView="show"
@@ -76,6 +78,7 @@ function Hero_sec() {
           return (
             <motion.h2
               key={index}
+              className={index==2||index==1?"text-white":" "}
               variants={childrenVariant} // initial="hidden"  animate="show" ( the main problem occured child animation overriding the parent animation)
             >
               {word}
@@ -83,6 +86,7 @@ function Hero_sec() {
           );
         })}
       </motion.div>
+      
 
       {/*Typing*/}
     </>
