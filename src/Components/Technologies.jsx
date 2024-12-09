@@ -24,7 +24,7 @@ function Technologies() {
 
   return (
     <>
-    <h1 className="my-7 md:ml-10 ml-5 lg:text-5xl text-4xl">Technologies i use</h1>
+    <h1 className="my-7 md:ml-10 ml-5 md:text-4xl text-3xl">Technologies i use</h1>
     <motion.div
       className="grid grid-cols-2 md:p-16 lg:grid lg:grid-cols-4 items-center justify-center p-16 pb-0 lg:pl-36 gap-8 lg:gap-16  mt-[10%]"
       variants={parentVariant}
@@ -37,7 +37,7 @@ function Technologies() {
           <motion.img
             key={i}
             src={src}
-            className=" md:h-56 h-44 mt-10 lg:mt-0 shadow-xl rounded-2xl "
+            className=" md:h-56 h-44 mt-10 lg:p-5 lg:mt-0 shadow-xl rounded-2xl "
             alt="React"
             variants={childrenVariant}
             />

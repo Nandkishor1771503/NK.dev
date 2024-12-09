@@ -11,7 +11,7 @@ function Hero_sec() {
     hidden: { opacity: 0 },
     show: {
       opacity: 0.7,
-      transition: { staggerChildren: 0.2, duration: 0.357,delay:0.5 },
+      transition: { staggerChildren: 0.2, duration: 0.357 },
     },
   };
 
@@ -23,7 +23,7 @@ function Hero_sec() {
   return (
     <>
       <div className="md:flex  w-full mt-10 ">
-        <div className="text-gray-500 w-[70%] md:w-[30%] lg:w-[25%]  lg:text-5xl md:text-3xl  text-2xl ml-4  lg:text-end lg:ml-10 lg:pt-16">
+        <div className="text-gray-500 w-[70%] md:w-[30%] lg:w-[25%]  lg:text-4xl md:text-3xl  text-2xl ml-4  lg:text-end lg:ml-10 lg:pt-16">
           <motion.p
             className=""
             initial={{ opacity: 0 }}
@@ -55,7 +55,7 @@ function Hero_sec() {
       </div>
 
       <motion.div
-        className=" w-[100%] h-24 mt-16 ml-4 text-xl md:hidden"
+        className=" w-[100%] h-24 mt-16 ml-4 text-xl md:hidden font-customSerif"
         initial={{ x: -100, opacity: 0.3 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}

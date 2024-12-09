@@ -15,6 +15,9 @@ export default {
         neonLightGrey: "0 0 5px #e0e0e0, 0 0 2px #e0e0e0, 0 0 8px #e0e0e0",
 
       },
+      fontFamily:{
+        customSerif: ['Inter', 'sans-serif'],
+      }
     },
   },
   plugins: [],
